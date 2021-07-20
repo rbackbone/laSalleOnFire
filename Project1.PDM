@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=Standard Setup Package 2006
+
+
+[Package|Standard Setup Package 2006|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\Package
+
+[Package|Standard Setup Package 2006|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2006|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2006|Files Found]
+
+[Package|Standard Setup Package 2006|Files Released]
+
+[Package|Standard Setup Package 2006|Missing Dependency Information]
+D:\Meus Documentos\Faculdade\Modelagem e Simulação\Trabalho\ThreadServer\ThreadServer.exe=
+
+[Package|Standard Setup Package 2006|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2006|Files Added]
+
+[Package|Standard Setup Package 2006|Files Removed]
+
+[Package|Standard Setup Package 2006|Files In Project]
+D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\SimulaIncendioRFDUTRA.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Meus Documentos\Faculdade\Modelagem e Simulação\Trabalho\ThreadServer\ThreadServer.exe=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2006|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2006|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2006|Install Locations]
+D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\SimulaIncendioRFDUTRA.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Meus Documentos\Faculdade\Modelagem e Simulação\Trabalho\ThreadServer\ThreadServer.exe=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2006|Configure Shared Files]
+Applicable=Yes
+D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\SimulaIncendioRFDUTRA.exe=No
+D:\Meus Documentos\Faculdade\Modelagem e Simulação\Trabalho\ThreadServer\ThreadServer.exe=Yes
+
+[Package|Standard Setup Package 2006|Distribution]
+Type=single
+Size=
+Title=Simula Incêndio - por Rafael Frohlich Dutra 2006
+
+[Package|Standard Setup Package 2006|IconGroups]
+Group0=Simula Incêndio - por Rafael Frohlich Dutra 2006
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2006|Simula Incêndio - por Rafael Frohlich Dutra 2006]
+Icon1=SimulaIncendioRFDUTRA.exe
+Title1=Simula Incêndio - por Rafael Frohlich Dutra 2006
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2006|Package]
+PackageFolder=D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\Package
+ProjectFolder=D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3
+ServerSideCab=
+File1=D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\Package\setup.exe
+File2=D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\Package\Setup.Lst
+File3=D:\Meus Documentos\Faculdade\Modelagem e Simulação\T2 - v3\Package\SimulaIncendioRFDUTRA.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
